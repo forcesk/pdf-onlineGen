@@ -26,21 +26,30 @@
   <form action="javascript:;" onsubmit="return PDFGEN(this);">
 
   <div align="center">
-  <i class="fas fa-file-pdf fa-5x" style="color: red" align="center"></i>
+  <i class="fas fa-file-pdf fa-7x display-4 animated fadeInDown delay-1s" style="color: red; font-size:12vw;" align="center"></i>
 </div>
 
-<h1 class="display-4 animated infinite pulse delay-1s" align="center" style="color: red ;font-size:10vw;">PDF</h1>
+<h1 class="display-4 animated infinite pulse delay-1s" align="center" style="color: red ;font-size:9vw;">PDF</h1>
 
+<div class="row">
+  <div class="col-2">
+  </div>
+<div class="col-8 xs-12 md-12" align="center">
   <label for="formName"></label>
   <input class="form-control" id="Name" placeholder="Escriba su nombre">
 <br/>
+</div>
+<div class="col-2">
+</div>
+</div>
+
     <div class="row">
       <div class="col-3">
       </div>
 
 
     <div class="col-6 xs-12 md-12" align="center">
-    <input type="button" class="btn btn-outline-danger btn-lg " name="submit" value="Descargar"  onclick="PDFGEN(this.form);"/>
+    <input type="button" class="btn btn-outline-danger " name="submit" value="Descargar"  onclick="PDFGEN(this.form);"/>
   </div>
 
   <div class="col-3">
